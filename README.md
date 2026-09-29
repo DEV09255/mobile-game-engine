@@ -1,10 +1,10 @@
-# Skyline Merge Arena
+# Skyline Merge Arena Android Wrapper
 
-A fast, mobile-first, merge-and-battle game prototype built for the browser.
+This repository now contains:
+- a browser-based prototype game in the root `index.html`
+- an Android WebView wrapper in `app/` for packaging into an APK/AAB workflow
 
-## How to run
-
-Open `index.html` directly in a browser, or serve the folder with a local web server:
+## Run the web prototype locally
 
 ```bash
 python3 -m http.server 8000
@@ -12,24 +12,22 @@ python3 -m http.server 8000
 
 Then open `http://localhost:8000`.
 
-## Gameplay loop
+## Android project
 
-- Collect units from the arena
-- Merge three matching units into a higher tier
-- Build your squad's battle power
-- Fight enemy waves for XP and coins
-- Claim daily rewards
-- Spend gems on bundles, premium pass, and cosmetic-like upgrades
+The Android project is located in the `app/` folder and loads the same game from `app/src/main/assets/index.html`.
 
-## Included systems
+### Prerequisites
+- Android Studio
+- Android SDK 34
+- Java 17
 
-- Level progression
-- Coin and gem economy
-- Daily streak reward loop
-- Premium pass mock purchase flow
-- Gem shop pricing with INR-focused bundle pricing
-- Simulated in-game purchase flow for a prototype
+### Build steps
+1. Open the project in Android Studio.
+2. Let Gradle sync.
+3. Build > Generate Signed Bundle / APK.
+4. Upload the resulting AAB to Google Play Console.
 
-## Notes
-
-This is a front-end prototype and not connected to a real payment provider. It is designed to demonstrate the gameplay and monetization structure in a working game shell.
+## Important notes
+- This is a wrapper around the game UI and mock store logic.
+- Real in-app purchases must be implemented with Google Play Billing and signed with a real Play Console account.
+- Publishing still requires Play Console registration, app privacy policy, content rating, and store listing.
