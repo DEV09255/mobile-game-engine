@@ -18,13 +18,22 @@
   - Event completion: 20 Gems (2-3x/year)
   - **Total Free: 500 Gems (then stops)**
 
-- **Paid Players ONLY (Level 200+):** 1000 Gems per 100 levels
-  - Level 200: +1000 Gems
-  - Level 300: +1000 Gems
-  - Level 400: +1000 Gems
-  - Level 500: +1000 Gems
-  - Level 1000: +1000 Gems × 8 (cumulative)
-  - **Must be a paying customer to unlock these milestones**
+- **Level Progression to 1000 (ALL Players):**
+  - Levels 1-100: All players progress normally
+  - Levels 100-200: All players can progress
+  - Levels 200-1000: All players can reach
+  - **Level 1000 Reward:**
+    - **F2P/Normal Players: 2000 Gems** (one-time at level 1000)
+    - **Paid Players: 1000 Gems per 100 levels (200-1000) PLUS 2000 Gems at level 1000**
+      - Level 200: +1000 Gems
+      - Level 300: +1000 Gems
+      - Level 400: +1000 Gems
+      - Level 500: +1000 Gems
+      - Level 600: +1000 Gems
+      - Level 700: +1000 Gems
+      - Level 800: +1000 Gems
+      - Level 900: +1000 Gems
+      - Level 1000: +2000 Gems (paid players get double)
 
 ### Gem → Coins Exchange
 - **100 Gems = 10,000 Coins**
@@ -138,68 +147,61 @@
 
 ---
 
-## Free-to-Play Economy
+## Free-to-Play Economy (ALL Players to Level 1000)
 
-**Progression Path (F2P):**
+**Normal/F2P Player Progression Path:**
 - Level 1-100: Earn 500 Gems free
-- Level 100+: NO MORE free Gems
-- Convert free Gems → 50k Coins one-time
-- Late game: Pure coin grind (no acceleration)
-- **Can play forever but slow progression**
+- Level 100-1000: NO MORE free Gems during progression
+- Level 1000: **+2000 Gems FINAL REWARD** (one-time endpoint)
+- Convert free Gems → 50k Coins (optional)
+- **Total free gems: 500 + 2000 = 2500 Gems by level 1000**
+- Late game: Pure coin grind after level 1000 (no acceleration beyond 2500 gems)
+- **Can play forever but slower progression**
 
-**Paid Player Economy:**
+**Paid Player Progression Path:**
 - Level 1-100: Earn 500 Gems free
 - Buy gem packages/bundles
-- Levels 200-1000: Unlock 1000 Gems per 100 levels
-- **Massive acceleration beyond level 100**
-- Status through cosmetics
+- Levels 200-900: Unlock 1000 Gems per 100 levels (8 × 1000 = 8000 Gems)
+- Level 1000: **+2000 Gems FINAL REWARD** (double reward for paid players)
+- **Total accessible gems: 500 (free) + 8000 (levels 200-900) + 2000 (level 1000) = 10,500 Gems**
+- **Massive acceleration advantage over F2P players**
 
 ---
 
-## One-Time Purchase Commitment Model
+## Level Progression System
 
-**Why it works:**
-1. **Starter Bundle (₹299)** — Low friction, hooks first payment
-2. **Hero Pack (₹639)** — Doubles commitment, rare cosmetics
-3. **Founder Pack (₹1,499)** — Status item, exclusive title
-4. **Casual Path (₹399)** — Commitment without tier lock
-5. **Engaged Path (₹2,499)** — Mid-tier permanent upgrade
-6. **Whale Path (₹5,999)** — Top-tier status, permanent advantages
+### All Players Can Reach Level 1000
+- **Progression is unlimited for all players**
+- No artificial level cap
+- F2P and paid players both reach level 1000
 
-**Recurring Revenue:**
-- Seasonal battle pass (₹599 every 2 months = ₹1,794/year)
-- Event cosmetics (₹100-500 per event)
-- Daily/weekly gem offers
+### Gem Rewards Structure
 
-**Total Customer Lifetime Value (CLV):**
-- Casual: ₹299 + (₹599 × 3 seasons) = ₹2,096/year
-- Engaged: ₹2,499 + (₹599 × 6 seasons) = ₹5,093/year
-- Whale: ₹5,999 + (₹599 × 6 seasons) + cosmetics = ₹10,000+/year
+**F2P/Normal Players:**
+- Levels 1-100: 500 Gems (scattered throughout)
+- Levels 100-999: No gem rewards
+- Level 1000: **2000 Gems** (final milestone, one-time)
+- Total available: 2500 Gems max
 
----
-
-## Level 200+ Exclusive Gem Rewards (Paying Players Only)
-
-**Progression Unlock System:**
-- Levels 1-100: Free gems capped at 500
-- Level 100→199: No more free gems (payment gate)
-- Level 200+: Unlock premium level rewards (₹ spent required)
-  - **Level 200: +1000 Gems** (paying players only)
-  - **Level 300: +1000 Gems** (paying players only)
-  - **Level 400: +1000 Gems** (paying players only)
-  - **Level 500: +1000 Gems** (paying players only)
-  - Level 600: +1000 Gems
-  - Level 700: +1000 Gems
-  - Level 800: +1000 Gems
-  - Level 900: +1000 Gems
-  - Level 1000: +1000 Gems
+**Paying Players:**
+- Levels 1-100: 500 Gems (scattered throughout)
+- Level 200: +1000 Gems
+- Level 300: +1000 Gems
+- Level 400: +1000 Gems
+- Level 500: +1000 Gems
+- Level 600: +1000 Gems
+- Level 700: +1000 Gems
+- Level 800: +1000 Gems
+- Level 900: +1000 Gems
+- Level 1000: **+2000 Gems** (double reward, final milestone)
+- Total available: 500 + (1000×8) + 2000 = 10,500 Gems
 
 **Why this works:**
-- Creates clear "paid player" identity
-- Rewards loyalty with rare gems
-- Encourages continued spending
-- Makes paid players feel they're getting value back
-- Gate behind payment history, not level alone
+- Normal players feel rewarded for reaching level 1000 (2000 gems)
+- Paid players get early rewards (200-900 levels) PLUS double at level 1000
+- Creates clear monetization advantage without blocking F2P
+- Both paths feel rewarding but paid path is 4x more lucrative
+- Encourages spending: "Get 8000 extra gems by becoming a paying player"
 
 ---
 
@@ -210,8 +212,9 @@
 **Day 7:** New player 20% bonus expires, pricing normalizes
 **Week 2:** First battle pass season available (₹599)
 **Month 1:** Event cosmetics (₹100-500)
-**Level 100:** End of free gem line, payment gate visible
-**Level 200+:** Exclusive gem rewards for paying players
+**Level 100:** Free gems end, payment gate visible
+**Levels 200-900:** Paying players unlock milestone gems
+**Level 1000:** Final reward threshold (2000 gems for all, but paid players already have 8000 more)
 
 ---
 
@@ -219,24 +222,28 @@
 
 **F2P Player:** 
 - Pays: ₹0
-- Level 100 in 3-6 months
+- Total gems: 2500 (500 free + 2000 at level 1000)
+- Level 1000 in 6-12 months
 - Retention: 15-20%
 
 **Casual Spender:**
 - First spend: ₹299 (Starter Bundle)
 - Total Year 1: ₹2,096 (includes seasonal pass)
+- Total gems: 500 free + ~5000 purchased + 2000 at level 1000 = 7500 gems
 - Level progression: 200+ within 6 months
 - Retention: 60%
 
 **Engaged Spender:**
 - First spend: ₹2,499 (Engaged Path tier)
 - Total Year 1: ₹5,093 (includes seasonal pass)
+- Total gems: 500 free + gem rewards per 100 levels + 2000 at 1000 = 10,500 gems
 - Level progression: 500+ within 6 months
 - Retention: 80%
 
 **Whale Player:**
 - First spend: ₹5,999 (Whale Path tier)
 - Total Year 1: ₹10,000+ (includes cosmetics + pass)
+- Total gems: Unlimited access to all level milestones + cosmetics
 - Level progression: 1000 within 3 months
 - Retention: 95%
 
@@ -249,7 +256,10 @@
 - [ ] Starter bundles at exact prices (₹299, ₹639, ₹1,499)
 - [ ] Spending paths (₹399, ₹2,499, ₹5,999) one-time only
 - [ ] Battle pass ₹599 per season
-- [ ] Level 200+ gem milestones (+1000 per 100 levels, paying players only)
+- [ ] All players can progress to level 1000
+- [ ] F2P level 1000 reward: 2000 Gems
+- [ ] Paying players level 200-900: 1000 Gems per 100 levels
+- [ ] Paying players level 1000: 2000 Gems (double reward)
 - [ ] 100 Gems = 10k Coins conversion
 - [ ] Payment gateway (Paytm, UPI, Google Play, App Store)
 - [ ] Receipt validation & anti-cheat
