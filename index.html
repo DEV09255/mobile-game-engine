@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skyline Merge Arena</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">CURRENT GEN MOBILE</p>
+          <h1>Skyline Merge Arena</h1>
+        </div>
+        <div class="topbar-actions">
+          <button id="dailyRewardBtn" class="secondary">Claim Daily</button>
+          <button id="premiumPassBtn" class="primary">Premium Pass</button>
+        </div>
+      </header>
+
+      <section class="hud">
+        <div class="stat-card">
+          <span class="label">Level</span>
+          <strong id="levelValue">1</strong>
+        </div>
+        <div class="stat-card">
+          <span class="label">Coins</span>
+          <strong id="coinsValue">2500</strong>
+        </div>
+        <div class="stat-card">
+          <span class="label">Gems</span>
+          <strong id="gemsValue">25</strong>
+        </div>
+        <div class="stat-card xp-card">
+          <span class="label">XP</span>
+          <strong id="xpValue">0 / 100</strong>
+        </div>
+      </section>
+
+      <main class="game-layout">
+        <aside class="panel left-panel">
+          <div class="panel-header">
+            <h2>Roster</h2>
+          </div>
+          <div id="inventoryList" class="inventory-list"></div>
+        </aside>
+
+        <section class="panel arena-panel">
+          <div class="panel-header space-between">
+            <h2>Arena</h2>
+            <div class="pill" id="streakPill">Streak x1</div>
+          </div>
+
+          <div class="battle-panel">
+            <div class="enemy-card">
+              <p class="eyebrow">Enemy Wave</p>
+              <h3 id="enemyName">Drone Scout</h3>
+              <div class="life-bar">
+                <span id="enemyHpBar"></span>
+              </div>
+              <p id="enemyStats">HP: 80 | Power: 12</p>
+            </div>
+
+            <div class="arena-controls">
+              <button id="collectBtn" class="primary large">Collect Unit</button>
+              <button id="mergeBtn" class="secondary large">Merge 3</button>
+              <button id="battleBtn" class="accent large">Battle</button>
+            </div>
+          </div>
+
+          <div class="log-panel">
+            <h3>Battle Log</h3>
+            <ul id="logList"></ul>
+          </div>
+        </section>
+
+        <aside class="panel right-panel">
+          <div class="panel-header">
+            <h2>Store</h2>
+          </div>
+
+          <div class="store-section">
+            <h3>Gem Packs</h3>
+            <div id="gemShop" class="store-list"></div>
+          </div>
+
+          <div class="store-section">
+            <h3>Premium Deals</h3>
+            <div id="premiumShop" class="store-list"></div>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
